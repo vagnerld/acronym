@@ -1,0 +1,27 @@
+p { 
+	font-family: 'Open Sans', sans-serif;
+}
+
+.pal {
+	max-width: 13px;
+	margin-left: 2px;
+	line-height: 12px;
+	overflow: hidden;
+	display: inline-block;
+	color: #a6e22e;
+	letter-spacing: 3px;
+	-webkit-transition: max-width 0.5s ease-in;
+	-o-transition: max-width 0.5s ease-in;
+	-moz-transition: max-width 0.5s ease-in; 
+	transition: max-width 0.5s ease-in;
+}
+
+.palHover {
+	max-width: 250px;
+	overflow: visible;
+	-webkit-transition: max-width 0.5s ease-in;
+    -o-transition: max-width 0.5s ease-in;
+    -moz-transition: max-width 0.5s ease-in; 
+    transition: max-width 0.5s ease-in;
+}
+
